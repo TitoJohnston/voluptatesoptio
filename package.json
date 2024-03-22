@@ -1,0 +1,50 @@
+{
+  "name": "voluptatesoptio",
+  "version": "1.0.0",
+  "description": "React components to render results from TokenSniffer API",
+  "author": "EttieJerde",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TitoJohnston/voluptatesoptio.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": "./dist/index.js",
+  "keywords": [
+    "tokensniffer",
+    "minima",
+    "est"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "peerDependencies": {
+    "react": ">=17.0.1",
+    "react-dom": ">=17.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "rollup": "^2.79.1",
+    "rollup-plugin-import-css": "^3.3.1"
+  },
+  "dependencies": {
+    "d3-scale": "^4.0.2",
+    "d3-shape": "^3.2.0"
+  },
+  "homepage": "https://github.com/TitoJohnston/voluptatesoptio.git"
+}
